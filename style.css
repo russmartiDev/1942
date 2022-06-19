@@ -1,0 +1,94 @@
+body{
+    background-color:black;
+}
+#container{
+    background:  url('assets/stars.gif');
+    background-color: black;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    width:600px;
+    height:600px;
+    border: 10px solid white;
+    margin-left: 450px;
+    margin-top: 50px;		
+}
+#hero{
+    background: url('assets/1942.png');
+    background-position: -41px -105px;
+    width:50px;
+    height:46px;
+    position:absolute;
+}
+.enemy1{
+    background: url('assets/1942.png');
+    background-position: -30px -10px;
+    width:28px;
+    height:28px;
+    
+    position:absolute;
+    transform: rotate(180deg);
+}
+
+.enemy2{
+    background: url('assets/1942.png');
+    background-position: -60px -10px;
+    width:28px;
+    height:28px;
+    position:absolute;
+
+    transform: rotate(180deg);
+}
+.enemy3{
+    background: url('assets/boom.gif');
+    background-size: cover;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.enemy4{
+    background: url('assets/1942.png');
+    background-position: -95px -125px;
+
+    width:30px;
+    height:30px;
+    position:absolute;
+    transform: rotate(180deg);
+}
+.bullet{
+    background: url('assets/1942.png');
+    background-position: -185px -400px;
+    width:18px;
+    height:18px;
+    position:absolute;
+}
+#score{
+    position:absolute;
+    font-family: 'Press Start 2P', cursive;
+    top:20px;
+    left:460px;
+    color: white;
+    font-size:20px;
+}
+.power{
+    background: url('assets/orb.png');
+    background-size: cover;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.power2{
+    background: url('assets/orb2.png');
+    background-size: cover;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.heart{
+    background-image: url('assets/heart.png');
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    left: 350px;
+    top: 50;
+    position: absolute;
+}
